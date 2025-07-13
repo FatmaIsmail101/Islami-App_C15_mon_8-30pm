@@ -1,8 +1,9 @@
 import 'package:assignmenthb/models/hadithDataModel.dart';
 import 'package:assignmenthb/modules/layout/hadith/widget/HadithWidget.dart';
-import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+
 import '../../../core/constants/assets.dart';
 
 class HadithTap extends StatefulWidget {
@@ -18,15 +19,15 @@ class _HadithTapState extends State<HadithTap> {
   @override
   void initState() {
     super.initState();
+    if (hadithDataList.isEmpty) loadhadithContent();
   }
 
   @override
   Widget build(BuildContext context) {
-    if (hadithDataList.isEmpty) loadhadithContent(index);
 
     final height = MediaQuery.of(context).size;
     final width = MediaQuery.of(context).size;
-    final theme = Theme.of(context);
+
     return Container(
       height: height.height,
       width: width.width,
@@ -37,6 +38,7 @@ class _HadithTapState extends State<HadithTap> {
         ),
       ),
       child: Column(
+        crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Image(image: AssetImage(Assets.HeaderLogo), fit: BoxFit.cover),
           CarouselSlider(
@@ -44,7 +46,7 @@ class _HadithTapState extends State<HadithTap> {
               return HadithWidget(hadithDataModel: e);
             }).toList(),
             options: CarouselOptions(
-              height: height.height * .4,
+              height: height.height * .65,
               aspectRatio: 16 / 9,
               viewportFraction: 0.8,
               initialPage: 0,
@@ -66,25 +68,34 @@ class _HadithTapState extends State<HadithTap> {
 
   List<HadithDataModel> hadithDataList = [];
 
-  void loadhadithContent(int index) async {
-    String content = await rootBundle.loadString(
-      "assets/files/Hadeeth/h$index.txt",
-    );
-    List<String> hadith = [];
+  void loadhadithContent() async {
+    List<HadithDataModel> loadedAhadith = [];
 
-    for (var element in hadith) {
-      String singleHadith = element.trim();
-      int indexOfTitle = singleHadith.indexOf("\n");
-      String HadithTitle = singleHadith.substring(0, indexOfTitle);
-      String hadithContent = singleHadith.substring(indexOfTitle + 1);
-      HadithDataModel hadithDataModel = HadithDataModel(
-        title: HadithTitle,
-        content: hadithContent,
-      );
+    for (int i = 1; i <= 50; i++) {
+      try {
+        String content = await rootBundle.loadString(
+          "assets/files/Hadeeth/h$i.txt",
+        );
 
-      setState(() {
-        hadithDataList.add(hadithDataModel);
-      });
+        List<String> lines = content.trim().split("\n");
+        if (lines.isEmpty) continue;
+
+        String hadithTitle = lines.first.trim();
+        String hadithContent = lines.sublist(1).join("\n").trim();
+
+        HadithDataModel hadithDataModel = HadithDataModel(
+          title: hadithTitle,
+          content: hadithContent,
+        );
+
+        loadedAhadith.add(hadithDataModel);
+      } catch (e) {
+        print("خطأ في تحميل h$i.txt: $e");
+      }
     }
+
+    setState(() {
+      hadithDataList = loadedAhadith;
+    });
   }
 }

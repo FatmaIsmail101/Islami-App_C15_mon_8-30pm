@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3c1f5a7-1d65-48cf-8704-59a74931ff53" name="Changes" comment="create Islami Project Files&#10;* Develop Quran View&#10;* Develop Quran Details View" />
+    <list default="true" id="d3c1f5a7-1d65-48cf-8704-59a74931ff53" name="Changes" comment="create Islami Project Files&#10;* Develop Quran View&#10;* Develop Quran Details View">
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/58831e78c99864515d95f10b1445ee53/.filecache" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/58831e78c99864515d95f10b1445ee53/.filecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/58831e78c99864515d95f10b1445ee53/app.dill" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/58831e78c99864515d95f10b1445ee53/app.dill" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/58831e78c99864515d95f10b1445ee53/debug_android_application.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/58831e78c99864515d95f10b1445ee53/debug_android_application.stamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/58831e78c99864515d95f10b1445ee53/flutter_assets.d" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/58831e78c99864515d95f10b1445ee53/flutter_assets.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/58831e78c99864515d95f10b1445ee53/kernel_snapshot_program.d" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/58831e78c99864515d95f10b1445ee53/kernel_snapshot_program.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/58831e78c99864515d95f10b1445ee53/kernel_snapshot_program.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/58831e78c99864515d95f10b1445ee53/kernel_snapshot_program.stamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/modules/layout/hadith/HadithTap.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/modules/layout/hadith/HadithTap.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/modules/layout/hadith/widget/HadithWidget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/modules/layout/hadith/widget/HadithWidget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/modules/layout/quran/widgets/QuranDetailsItem.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/modules/layout/quran/widgets/QuranDetailsItem.dart" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,18 +38,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "FatmaIsmail101"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;FatmaIsmail101&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/FatmaIsmail101/Islami-App_C15_mon_8-30pm.git",
-    "accountId": "af63c175-3cf8-4823-9776-4250a77b0ce4"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/FatmaIsmail101/Islami-App_C15_mon_8-30pm.git&quot;,
+    &quot;accountId&quot;: &quot;af63c175-3cf8-4823-9776-4250a77b0ce4&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -114,7 +125,15 @@
       <option name="project" value="LOCAL؜" />
       <updated>1752352348560</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL؜-٠٠٠٠٥" summary="create Islami Project Files&#10;* Develop Quran View&#10;* Develop Quran Details View">
+      <option name="closed" value="true" />
+      <created>1752352770808</created>
+      <option name="number" value="٠٠٠٠٥" />
+      <option name="presentableId" value="LOCAL؜-٠٠٠٠٥" />
+      <option name="project" value="LOCAL؜" />
+      <updated>1752352770808</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

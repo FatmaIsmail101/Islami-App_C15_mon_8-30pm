@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import '../../../../models/suramodel.dart';
 
 class QuranDetailsItem extends StatefulWidget {
   const QuranDetailsItem({super.key});
@@ -14,7 +13,6 @@ class _QuranDetailsItemState extends State<QuranDetailsItem> {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    final data = ModalRoute.of(context)?.settings.arguments as SuraData;
 
     return Container(
       decoration: BoxDecoration(
