@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3c1f5a7-1d65-48cf-8704-59a74931ff53" name="Changes" comment="create Islami Project Files&#10;* Develop Quran View&#10;* Develop Quran Details View">
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/58831e78c99864515d95f10b1445ee53/.filecache" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/58831e78c99864515d95f10b1445ee53/.filecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/58831e78c99864515d95f10b1445ee53/app.dill" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/58831e78c99864515d95f10b1445ee53/app.dill" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/58831e78c99864515d95f10b1445ee53/debug_android_application.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/58831e78c99864515d95f10b1445ee53/debug_android_application.stamp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/58831e78c99864515d95f10b1445ee53/flutter_assets.d" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/58831e78c99864515d95f10b1445ee53/flutter_assets.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/58831e78c99864515d95f10b1445ee53/kernel_snapshot_program.d" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/58831e78c99864515d95f10b1445ee53/kernel_snapshot_program.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/58831e78c99864515d95f10b1445ee53/kernel_snapshot_program.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/58831e78c99864515d95f10b1445ee53/kernel_snapshot_program.stamp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/modules/layout/hadith/HadithTap.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/modules/layout/hadith/HadithTap.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/modules/layout/hadith/widget/HadithWidget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/modules/layout/hadith/widget/HadithWidget.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/modules/layout/quran/widgets/QuranDetailsItem.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/modules/layout/quran/widgets/QuranDetailsItem.dart" afterDir="false" />
-    </list>
+    <list default="true" id="d3c1f5a7-1d65-48cf-8704-59a74931ff53" name="Changes" comment="* Repairing Errors in Hadith content but it views the first hadith only" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +56,6 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "hadith-feature",
     "io.flutter.reload.alreadyRun": "true",
     "settings.editor.selected.configurable": "vcs.Git",
@@ -133,7 +121,15 @@
       <option name="project" value="LOCAL؜" />
       <updated>1752352770808</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL؜-٠٠٠٠٦" summary="* Repairing Errors in Hadith content but it views the first hadith only">
+      <option name="closed" value="true" />
+      <created>1752418927877</created>
+      <option name="number" value="٠٠٠٠٦" />
+      <option name="presentableId" value="LOCAL؜-٠٠٠٠٦" />
+      <option name="project" value="LOCAL؜" />
+      <updated>1752418927877</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -161,7 +157,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create Islami Project Files&#10;* Develop Quran View&#10;* Develop Quran Details View" />
-    <option name="LAST_COMMIT_MESSAGE" value="create Islami Project Files&#10;* Develop Quran View&#10;* Develop Quran Details View" />
+    <MESSAGE value="* Repairing Errors in Hadith content but it views the first hadith only" />
+    <option name="LAST_COMMIT_MESSAGE" value="* Repairing Errors in Hadith content but it views the first hadith only" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
