@@ -1,3 +1,9 @@
+import 'package:assignmenthb/models/hadithDataModel.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+
+import '../../../../core/constants/assets.dart';
+
 class HadithWidget extends StatefulWidget {
     HadithWidget({super.key,
     required this.index});
@@ -42,12 +48,13 @@ loadhadithContent(widget.index);
             padding: EdgeInsets.all(12),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
+
               children: [
                 Padding(
-                  padding: const EdgeInsets.all(8.0),
+                  padding: const EdgeInsets.only(left: 8.0,top: 8,right: 8),
                   child: Column(
                     children: [
-                      Text(
+                      Text(textAlign: TextAlign.center,
                         hadithDataModel?.title??"",
                         style: theme.textTheme.headlineSmall!.copyWith(
                             color: Colors.black),
@@ -56,7 +63,7 @@ loadhadithContent(widget.index);
                   ),
                 ),
     Padding(
-    padding: const EdgeInsets.all(8.0),
+    padding: const EdgeInsets.only(left: 8.0,top: 8,right: 8),
     child: Text(
     hadithDataModel?.content??"",
     style: theme.textTheme.bodyLarge!.copyWith(color: Colors.black),
@@ -85,4 +92,3 @@ setState(() {
 });
     }
 }
-
