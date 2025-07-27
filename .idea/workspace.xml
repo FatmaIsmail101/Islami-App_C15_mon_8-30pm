@@ -1,202 +1,430 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3c1f5a7-1d65-48cf-8704-59a74931ff53" name="Changes" comment="* Repairing Errors in Hadith content but it views the first hadith only" />
+    <list default="true" id="ec43f934-c78a-4129-aa8f-54b517b20df7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsonSchemas.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/main_dart.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis_options.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/debug/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/kotlin/com/example/assignmenthb/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable-v21/launch_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable/launch_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/values-night/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/profile/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assignmenthb_android.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/local.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Hadeeth/h1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Hadeeth/h10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Hadeeth/h11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Hadeeth/h12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Hadeeth/h13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Hadeeth/h14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Hadeeth/h15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Hadeeth/h16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Hadeeth/h17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Hadeeth/h18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Hadeeth/h19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Hadeeth/h2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Hadeeth/h20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Hadeeth/h21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Hadeeth/h22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Hadeeth/h23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Hadeeth/h24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Hadeeth/h25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Hadeeth/h26.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Hadeeth/h27.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Hadeeth/h28.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Hadeeth/h29.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Hadeeth/h3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Hadeeth/h30.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Hadeeth/h31.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Hadeeth/h32.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Hadeeth/h33.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Hadeeth/h34.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Hadeeth/h35.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Hadeeth/h36.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Hadeeth/h37.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Hadeeth/h38.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Hadeeth/h39.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Hadeeth/h4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Hadeeth/h40.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Hadeeth/h41.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Hadeeth/h42.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Hadeeth/h43.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Hadeeth/h44.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Hadeeth/h45.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Hadeeth/h46.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Hadeeth/h47.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Hadeeth/h48.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Hadeeth/h49.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Hadeeth/h5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Hadeeth/h50.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Hadeeth/h6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Hadeeth/h7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Hadeeth/h8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Hadeeth/h9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/100.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/101.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/102.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/103.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/104.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/105.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/106.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/107.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/108.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/109.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/110.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/111.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/112.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/113.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/114.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/26.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/27.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/28.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/29.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/30.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/31.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/32.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/33.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/34.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/35.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/36.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/37.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/38.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/39.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/40.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/41.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/42.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/43.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/44.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/45.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/46.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/47.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/48.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/49.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/50.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/51.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/52.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/53.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/54.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/55.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/56.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/57.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/58.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/59.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/60.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/61.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/62.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/63.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/64.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/65.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/66.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/67.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/68.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/69.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/70.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/71.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/72.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/73.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/74.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/75.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/76.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/77.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/78.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/79.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/80.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/81.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/82.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/83.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/84.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/85.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/86.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/87.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/88.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/89.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/90.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/91.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/92.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/93.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/94.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/95.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/96.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/97.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/98.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/files/Suras/99.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/Janna LT Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/KamaliRegular-pg81r.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/KamaliRegular-xR725.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/Card Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/Hadith_Tap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/Quran Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/Quran_Tap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/Radio_Tap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/Sebha_Tap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/Sura Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/Sura list.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/Time_Tap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/Hadith background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/Hadith backgroundslider.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/Intro Screen (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/Intro Screen (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/Intro Screen (3).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/Intro Screen (4).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/Intro Screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/Mask groupradio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/Mask groupradio1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/Quran Details bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/Quran background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/Radio background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/Sebha background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/SebhaBody.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/Splash Screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/Time background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/azkarleft.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/azkarright.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/header logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/prayertime.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignmenthb.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Flutter/AppFrameworkInfo.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Flutter/Debug.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Flutter/Release.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/AppDelegate.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Base.lproj/LaunchScreen.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Base.lproj/Main.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Runner-Bridging-Header.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/RunnerTests/RunnerTests.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/constants/assets.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/constants/constants.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/routes/pages_route_name.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/routes/route.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/services/local_storage_keys.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/services/local_storage_services.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/theme/color_palette.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/theme/theme_manager.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/models/hadithDataModel.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/models/suramodel.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/modules/layout/LayoutView.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/modules/layout/hadith/HadithTap.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/modules/layout/hadith/widget/HadithWidget.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/modules/layout/quran/QuranTab.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/modules/layout/quran/widgets/QuranDetailsItem.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/modules/layout/quran/widgets/QuranDetailsView.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/modules/layout/quran/widgets/QuranDetailsView1.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/modules/layout/quran/widgets/RecentlySuraCardItem.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/modules/layout/quran/widgets/RecentlySuraWidget.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/modules/layout/quran/widgets/SuraItem.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/modules/layout/quran/widgets/SuraListWidget.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/modules/layout/radio/RadioTap.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/modules/layout/radio/widgets/RadioWidget.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/modules/layout/radio/widgets/RecitersWidget.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/modules/layout/radio/widgets/items/RadioItem.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/modules/layout/radio/widgets/items/RecitersItem.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/modules/layout/sebha/SebhaTap.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/modules/layout/time/TimeTap.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/modules/layout/time/widget/AzkarItem.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/modules/layout/time/widget/PrayerItem.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/modules/onboarding/Screen1.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/modules/onboarding/Screen2.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/modules/onboarding/Screen3.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/modules/onboarding/Screen4.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/modules/onboarding/Screen5.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/modules/splash/SplashView.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux/flutter/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux/flutter/generated_plugin_registrant.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux/flutter/generated_plugin_registrant.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux/flutter/generated_plugins.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux/runner/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux/runner/main.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux/runner/my_application.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux/runner/my_application.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/macos/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/macos/Flutter/Flutter-Debug.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/macos/Flutter/Flutter-Release.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/macos/Flutter/GeneratedPluginRegistrant.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/macos/Runner.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/macos/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/macos/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/macos/Runner.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/macos/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/macos/Runner/AppDelegate.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/macos/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_1024.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_128.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_256.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_64.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/macos/Runner/Base.lproj/MainMenu.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/macos/Runner/Configs/AppInfo.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/macos/Runner/Configs/Debug.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/macos/Runner/Configs/Release.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/macos/Runner/Configs/Warnings.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/macos/Runner/DebugProfile.entitlements" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/macos/Runner/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/macos/Runner/MainFlutterWindow.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/macos/Runner/Release.entitlements" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/macos/RunnerTests/RunnerTests.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/widget_test.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/icons/Icon-192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/icons/Icon-512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/icons/Icon-maskable-192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/icons/Icon-maskable-512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows/flutter/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows/flutter/generated_plugin_registrant.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows/flutter/generated_plugin_registrant.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows/flutter/generated_plugins.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows/runner/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows/runner/Runner.rc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows/runner/flutter_window.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows/runner/flutter_window.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows/runner/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows/runner/resource.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows/runner/resources/app_icon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows/runner/runner.exe.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows/runner/utils.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows/runner/utils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows/runner/win32_window.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows/runner/win32_window.h" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Flutter Widget stful" />
-        <option value="Flutter Widget stless" />
-        <option value="Dart File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="features" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;FatmaIsmail101&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "FatmaIsmail101"
   }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/FatmaIsmail101/Islami-App_C15_mon_8-30pm.git&quot;,
-    &quot;accountId&quot;: &quot;af63c175-3cf8-4823-9776-4250a77b0ce4&quot;
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/FatmaIsmail101/Islami-App_C15_mon_8-30pm.git",
+    "accountId": "af63c175-3cf8-4823-9776-4250a77b0ce4"
   }
-}</component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 1
-}</component>
-  <component name="ProjectId" id="2zT8muKKBVyvxwrgkqSrVg7mkG8" />
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="30SOTcHzsXo5Nsf5qMJqgLaUT9j" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Flutter.main.dart.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "hadith-feature",
-    "io.flutter.reload.alreadyRun": "true",
-    "settings.editor.selected.configurable": "vcs.Git",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Flutter_Deploma\assignmenthb\assets\icons" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
-      <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
-      <method v="2" />
-    </configuration>
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d3c1f5a7-1d65-48cf-8704-59a74931ff53" name="Changes" comment="" />
-      <created>1751743890659</created>
+      <changelist id="ec43f934-c78a-4129-aa8f-54b517b20df7" name="Changes" comment="" />
+      <created>1753617520375</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1751743890659</updated>
+      <updated>1753617520375</updated>
     </task>
-    <task id="LOCAL؜-٠٠٠٠١" summary="create Islami Project Files&#10;* Develop Quran View&#10;* Develop Quran Details View">
-      <option name="closed" value="true" />
-      <created>1752349322370</created>
-      <option name="number" value="٠٠٠٠١" />
-      <option name="presentableId" value="LOCAL؜-٠٠٠٠١" />
-      <option name="project" value="LOCAL؜" />
-      <updated>1752349322370</updated>
-    </task>
-    <task id="LOCAL؜-٠٠٠٠٢" summary="create Islami Project Files&#10;* Develop Quran View&#10;* Develop Quran Details View">
-      <option name="closed" value="true" />
-      <created>1752351458162</created>
-      <option name="number" value="٠٠٠٠٢" />
-      <option name="presentableId" value="LOCAL؜-٠٠٠٠٢" />
-      <option name="project" value="LOCAL؜" />
-      <updated>1752351458162</updated>
-    </task>
-    <task id="LOCAL؜-٠٠٠٠٣" summary="create Islami Project Files&#10;* Develop Quran View&#10;* Develop Quran Details View">
-      <option name="closed" value="true" />
-      <created>1752351812662</created>
-      <option name="number" value="٠٠٠٠٣" />
-      <option name="presentableId" value="LOCAL؜-٠٠٠٠٣" />
-      <option name="project" value="LOCAL؜" />
-      <updated>1752351812662</updated>
-    </task>
-    <task id="LOCAL؜-٠٠٠٠٤" summary="create Islami Project Files&#10;* Develop Quran View&#10;* Develop Quran Details View">
-      <option name="closed" value="true" />
-      <created>1752352348560</created>
-      <option name="number" value="٠٠٠٠٤" />
-      <option name="presentableId" value="LOCAL؜-٠٠٠٠٤" />
-      <option name="project" value="LOCAL؜" />
-      <updated>1752352348560</updated>
-    </task>
-    <task id="LOCAL؜-٠٠٠٠٥" summary="create Islami Project Files&#10;* Develop Quran View&#10;* Develop Quran Details View">
-      <option name="closed" value="true" />
-      <created>1752352770808</created>
-      <option name="number" value="٠٠٠٠٥" />
-      <option name="presentableId" value="LOCAL؜-٠٠٠٠٥" />
-      <option name="project" value="LOCAL؜" />
-      <updated>1752352770808</updated>
-    </task>
-    <task id="LOCAL؜-٠٠٠٠٦" summary="* Repairing Errors in Hadith content but it views the first hadith only">
-      <option name="closed" value="true" />
-      <created>1752418927877</created>
-      <option name="number" value="٠٠٠٠٦" />
-      <option name="presentableId" value="LOCAL؜-٠٠٠٠٦" />
-      <option name="project" value="LOCAL؜" />
-      <updated>1752418927877</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="hadith-feature" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="create Islami Project Files&#10;* Develop Quran View&#10;* Develop Quran Details View" />
-    <MESSAGE value="* Repairing Errors in Hadith content but it views the first hadith only" />
-    <option name="LAST_COMMIT_MESSAGE" value="* Repairing Errors in Hadith content but it views the first hadith only" />
-    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="Dart">
-          <url>file://$PROJECT_DIR$/lib/modules/onboarding/Screen2.dart</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="Dart">
-          <url>file://$PROJECT_DIR$/lib/modules/layout/quran/widgets/SuraItem.dart</url>
-          <line>6</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="Dart">
-          <url>file://$PROJECT_DIR$/lib/modules/layout/radio/widgets/items/RadioItem.dart</url>
-          <line>9</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="Dart">
-          <url>file://$PROJECT_DIR$/lib/core/constants/assets.dart</url>
-          <line>10</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="Dart">
-          <url>file://$PROJECT_DIR$/lib/modules/layout/quran/widgets/RecentlySuraWidget.dart</url>
-          <line>18</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="Dart">
-          <url>file://$PROJECT_DIR$/lib/modules/layout/quran/QuranTab.dart</url>
-          <line>77</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
