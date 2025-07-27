@@ -1,8 +1,9 @@
-import 'package:assignmenthb/models/hadithDataModel.dart';
+
 import 'package:assignmenthb/modules/layout/hadith/widget/HadithWidget.dart';
-import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
-import 'package:flutter/services.dart';
+import 'package:flutter/material.dart';
+
+
 import '../../../core/constants/assets.dart';
 
 class HadithTap extends StatefulWidget {
@@ -13,20 +14,15 @@ class HadithTap extends StatefulWidget {
 }
 
 class _HadithTapState extends State<HadithTap> {
-  int index = 1;
-
-  @override
-  void initState() {
-    super.initState();
-  }
+  
 
   @override
   Widget build(BuildContext context) {
-    if (hadithDataList.isEmpty) loadhadithContent(index);
+
 
     final height = MediaQuery.of(context).size;
     final width = MediaQuery.of(context).size;
-    final theme = Theme.of(context);
+
     return Container(
       height: height.height,
       width: width.width,
@@ -36,55 +32,21 @@ class _HadithTapState extends State<HadithTap> {
           fit: BoxFit.cover,
         ),
       ),
-      child: Column(
-        children: [
-          Image(image: AssetImage(Assets.HeaderLogo), fit: BoxFit.cover),
-          CarouselSlider(
-            items: hadithDataList.map((e) {
-              return HadithWidget(hadithDataModel: e);
-            }).toList(),
-            options: CarouselOptions(
-              height: height.height * .4,
-              aspectRatio: 16 / 9,
-              viewportFraction: 0.8,
-              initialPage: 0,
-              enableInfiniteScroll: true,
-              reverse: false,
-              autoPlay: true,
-              autoPlayInterval: Duration(seconds: 3),
-              autoPlayAnimationDuration: Duration(milliseconds: 800),
-              autoPlayCurve: Curves.fastOutSlowIn,
-              enlargeCenterPage: true,
-              enlargeFactor: 0.3,
-              scrollDirection: Axis.horizontal,
-            ),
-          ),
-        ],
-      ),
+      child: Stack(
+        children:[ Column(
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            Image(image: AssetImage(Assets.HeaderLogo), fit: BoxFit.cover),
+            CarouselSlider(
+              options: CarouselOptions(height: 499.0),
+              items: List.generate(50, (index)=>index+1).map((index) {
+                return HadithWidget(index: index,);
+              }).toList(),
+            )
+          ],
+        ),
+        ] ),
     );
   }
 
-  List<HadithDataModel> hadithDataList = [];
-
-  void loadhadithContent(int index) async {
-    String content = await rootBundle.loadString(
-      "assets/files/Hadeeth/h$index.txt",
-    );
-    List<String> hadith = [];
-
-    for (var element in hadith) {
-      String singleHadith = element.trim();
-      int indexOfTitle = singleHadith.indexOf("\n");
-      String HadithTitle = singleHadith.substring(0, indexOfTitle);
-      String hadithContent = singleHadith.substring(indexOfTitle + 1);
-      HadithDataModel hadithDataModel = HadithDataModel(
-        title: HadithTitle,
-        content: hadithContent,
-      );
-
-      setState(() {
-        hadithDataList.add(hadithDataModel);
-      });
-    }
-  }
 }
